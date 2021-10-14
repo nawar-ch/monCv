@@ -11,7 +11,8 @@
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]--
 >-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/fontawesome/4.4.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/fontawesome/4.4.0/css/fontawesome.min.css">-->
 <link rel="stylesheet" href="css/resume.css"/>
 
 </head> <body>
@@ -23,15 +24,15 @@
             <img src="ressources/images.jpg" alt="Image"/>      
         </div>
         <div style="display: inline-block; vertical-align:middle; margin-left: 20px;">
-        <h1>CHAIB Nawar</h1>
-        <h2>Ingénieure informatique</h2>   
+        <h1 id="name">CHAIB Nawar</h1>
+        <h3 id="activity">Ingénieure informatique</h3>   
        </div>
     
-       <div style="display: inline-block; vertical-align:middle; margin-left: 50px;">        
-            29200 Brest</br>            
-            nawar.chaib@outlook.com</br> 
-            <a href="https://ma.linkedin.com/in/nawar-chaib-780493158" target="_blank">Linked In</a></br>
-            <a href="https://github.com/nawar-ch" target="_blank">github</a></br>                                   
+       <div style="display: inline-block; vertical-align:middle;margin-left: 70px;">        
+            <i class="fas fa-map"></i>&nbsp; 29200 Brest</br>            
+            <i class="far fa-envelope"></i>&nbsp;nawar.chaib@outlook.com</br> 
+            <i class="fab fa-linkedin"></i>&nbsp;<a href="https://ma.linkedin.com/in/nawar-chaib-780493158" target="_blank">Linked In</a></br>
+            <i class="fab fa-github"></i>&nbsp;<a href="https://github.com/nawar-ch" target="_blank">github</a></br>                                   
         </div>
     </header>
 
@@ -62,13 +63,13 @@
             <h4>Stage de Fin d'études</h4>
             <h5>ENSATé/ Mai 2020 – Octobre 2020</h5>
             <p>La conception et la réalisation d’une application web pour la gestion des services pédagogiques et administratifs de L’ENSATé</p>
-            &nbsp;&nbsp;<span><b>Technologies:</b></span>Angular8, PHP, Laravel, MySql
+            <div id="technologies"><b>Technologies:</b>&nbsp;Angular8, PHP, Laravel, MySql</div>
         </article>
         <article>
             <h4>Stage d'application</h4>
             <h5>DR-2 / JUILLET 2019 – SEPTEMBRE 2019</h5>
             <p>La conception et la réalisation d’une application web en vue de suivi des dossiers d’un cabinet médical</p>
-            &nbsp;&nbsp;<span><b>Technologies:</b></span>Angular7, ASP.NET, SQL Server
+            <div id="technologies"><b>Technologies:</b>&nbsp;Angular7, ASP.NET, SQL Server</div>
         </article>
     </section>
     <section>
@@ -91,8 +92,12 @@
         </dl>
     </dsection>
 
-    <footer>
-        
+    <footer >
+        <h3>Centres d'intérêt</h3>
+        <div style="text-align: center;">
+            <i class="fas fa-camera"></i>&nbsp; Photography&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           
+            <i class="fab fa-internet-explorer"></i>&nbsp;</i>E-learning 
+    </div>
     </footer>
 </div>
 </body>
