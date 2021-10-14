@@ -1,0 +1,60 @@
+
+html, button, input, select, textarea {
+    color: #444;
+   }
+html { fontsize: 1em;
+     lineheight: 1.4;
+     background-color: #777;
+     }
+img {
+    height: 105px;
+    width: 105px;
+    border: 1px;
+    border-color: #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) ;
+    margin-top: 0%;
+    
+    }
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 50% ;
+    max-width: 900px;
+    min-width: 320px;
+    background-color: white;
+}
+
+
+
+header div{
+    display: inline-block;
+    margin-top: 0px;
+    
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+h3 {
+    margin-bottom: 3px;
+}
+h4, h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h5{
+    margin-top: 0%;
+    margin-bottom: 9px;
+}
+article {
+    margin-top: 0px;
+}
+
+p{
+    margin-top: 6px;
+    margin-bottom: 6px ;
+}
